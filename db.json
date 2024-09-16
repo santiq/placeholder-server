@@ -1,0 +1,56 @@
+{
+  "user": [
+    {
+      "_id": "user_id_1",
+      "email": "charly_garcia@gmail.com",
+      "first_name": "charly",
+      "last_name": "garcia",
+      "company": "company_id_1"
+    },
+    {
+      "_id": "user_id_2",
+      "email": "fito_paez@gmail.com",
+      "first_name": "fito",
+      "last_name": "paez",
+      "company": "company_id_2"
+    },
+    {
+      "_id": "user_id_3",
+      "email": "luis_alberto_spinetta@gmail.com",
+      "first_name": "luis",
+      "last_name": "spinetta",
+      "company": "company_id_1"
+    }
+  ],
+  "company": [
+    {
+      "_id": "company_id_1",
+      "name": "software on the road"
+    },
+    {
+      "_id": "company_id_2",
+      "name": "rock argentina"
+    },
+    {
+      "_id": "company_id_3",
+      "name": "el flaco productions"
+    }
+  ],
+  "balance": [
+    {
+      "_id": "balance_id_1",
+      "amount": 42,
+      "user": "user_id_1"
+    },
+    {
+      "_id": "balance_id_2",
+      "amount": 100,
+      "user": "user_id_2"
+    },
+    {
+      "_id": "balance_id_3",
+      "amount": 76,
+      "user": "user_id_3"
+    }
+  ]
+}
